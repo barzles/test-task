@@ -1,0 +1,118 @@
+/* Спецификация */
+
+body {
+	background: url('../img/Background.png') repeat;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: 700;
+}
+
+/* Первый экран*/
+
+.header {
+padding-bottom: 40px;
+padding-top: 45px;
+background: #373c3f;
+}
+
+.menu__item a {
+ color: #ebebeb;
+ font-size: 15px;
+}
+
+.menu__item {
+ margin: 0 30px;
+ white-space: nowrap;
+}
+
+.introduction {
+	background: #19b4c6;
+background: -moz-linear-gradient(-45deg, #19b4c6 0%, #0ca3b9 49%, #0992aa 75%, #078aa4 100%);
+background: -webkit-linear-gradient(-45deg, #19b4c6 0%,#0ca3b9 49%,#0992aa 75%,#078aa4 100%);
+background: linear-gradient(135deg, #19b4c6 0%,#0ca3b9 49%,#0992aa 75%,#078aa4 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19b4c6', endColorstr='#078aa4',GradientType=1 );
+}
+
+.introduction__title {
+ color: #ecf7f9;
+ font-size: 52px;
+ padding-top: 115px;
+}
+
+.introduction__block {
+ 	padding-bottom: 90px;
+}
+
+.introduction__href {
+ color: #abd4de;
+ font-size: 26px;
+ transition: 1s ease-out;
+
+}
+
+.introduction__href:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.introduction__icon {
+  padding-left: 300px;
+  font-size: 36px;
+  color: #ffffff;
+}
+/* Второй экран*/
+
+.text-box {
+background: #27212c;
+background: -moz-linear-gradient(left, #27212c 0%, #27212c 48%, #bc3183 50%, #bc3183 100%);
+background: -webkit-linear-gradient(left, #27212c 0%,#27212c 48%,#bc3183 50%,#bc3183 100%);
+background: linear-gradient(to right, #27212c 0%,#27212c 48%,#bc3183 50%,#bc3183 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27212c', endColorstr='#bc3183',GradientType=1 );
+}
+.title-box {
+background: #27212c;
+}
+.text-box__title {
+color: #9887a6;
+ font-size: 26px;
+ padding: 55px 0;
+ background: #27212c;
+}
+
+.text-box__angel {
+background: #bc3183;
+text-align: right;
+}
+
+.text-box__icon {
+ color: #ffffff;
+  font-size: 36px;
+}
+
+
+.title {
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.title_main {
+	font-size: 30px;
+		text-transform: uppercase;
+		color: #088ca5;
+}
+
+.title__text {
+	font-size: 14px;
+	margin: 0 auto;
+	color: #515151;
+}
+
+/* Третий экран*/
